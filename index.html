@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПинсксовхозСТРОЙ</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header-wrapper">
+            <div class="header_email-and-mobile">
+                <div class="header_email">
+                    <img class="email_icon" src="icons/email.svg" alt="email">
+                    <span class="email_text" find="1">lala@mail.ru</span>
+                </div>
+                <div class="header_mobile">
+                    <img class="mobile_icon" src="icons/mobile.svg" alt="mobile">
+                    <img class="mobile_icon_wave-one" src="icons/waveOne.svg" alt="wave">
+                    <img class="mobile_icon_wave-two" src="icons/waveTwo.svg" alt="wave">
+                    <span class="mobile_text" find="1">+375291234567</span>
+                </div>
+            </div>
+            <div class="header_search">
+                <input 
+                    minlength="4"
+                    maxlength="20"
+                    class="search_input" 
+                    type="text" 
+                    placeholder="поиск"
+                >
+                <img class="search_icon" src="icons/search.svg" alt="search">
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main_name-wrapper">
+            <h1 class="main_name" find="1">ПинсксовхозСТРОЙ</h1>
+        </div>
+        <div class="main-wrapper">
+            <div class="main_navigation">
+                <a href="stopgap.html" class="link navigation_text" find="1">О нас</a>
+                <a href="stopgap.html" class="link navigation_text" find="1">Услуги</a>
+                <a href="stopgap.html" class="link navigation_text" find="1">Проекты</a>
+                <a href="stopgap.html" class="link navigation_text" find="1">ПМК</a>
+                <a href="stopgap.html" class="link navigation_text" find="1">Контакты</a>
+            </div>
+            <div class="main_text-and-buttons">
+                <div class="main_text">
+                    <div class="main_text_history" find="1">На рынке строительных услуг с 1968 года.</div>
+                    <div class="main_text_slogan" find="1">Профессиональные решения для промышленного и гражданского строительства.</div>
+                </div>
+                <div class="main_buttons">
+                    <button class="btn main_button-call" href="#form">
+                        <a href="#form" class="link button__link" find="1">Заказать звонок</a>
+                    </button>
+                    <button class="btn main_button-services">
+                        <a href="stopgap.html" class="link button__link">
+                            <p class="button-services-text" find="1">Услуги</p>
+                            <img class="arrow_icon" src="icons/arrow.svg" alt="arrow">
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="about-wrapper">
+            <div class="about_text" find="1">О ходлинге</div>
+            <div class="about_slogan" find="1">Наша команда - это</div>
+            <div class="about_statistics">
+                <div>
+                    <div id="count_company" class="about_statistics__numbers" find="1">0</div>
+                    <div class="about_statistics__texts" find="1">компаний</div>
+                </div>
+                <div>
+                    <div id="count_years" class="about_statistics__numbers" find="1">0</div>
+                    <div class="about_statistics__texts" find="1">года опыта</div>
+                </div>
+                <div>
+                    <div id="count_projects" class="about_statistics__numbers" find="1">0</div>
+                    <div class="about_statistics__texts" find="1">крупных проектов</div>
+                </div>
+                <div>
+                    <div id="count_specialists" class="about_statistics__numbers" find="1">0</div>
+                    <div class="about_statistics__texts" find="1">специалистов</div>
+                </div>
+            </div>
+            <div class="about_slider">
+                <div class="about_slider_text">
+                   <p class="slider_text-first" find="1">
+                        Основная сфера деятельности предприятий холдинга "Пинсксовхозстрой" – <br> промышленно-гражданское строительство, 
+                        строительство многоквартирных жилых домов, объектов производственного и социального назначения в городах, 
+                        жилья и хозяйственных объектов в сельской местности.
+                   </p>
+                   <p class="slider_text-second" find="1">
+                        На балансе Общества имеется  480 единиц строительной и транспортной техники, современная оснастка, 
+                        высокопроизводительный инструмент и технологическое оборудование, позволяющие выполнять 
+                        строительно-монтажные работы любой степени сложности в соответствии с европейскими нормами.
+                   </p>
+                   <a class="link slider_text-sertificate" href="stopgap.html">
+                        <p style="padding-right: 5px;" find="1">Сертификаты</p>
+                        <img src="icons/arrow_long.svg" alt="arrow">
+                   </a>
+                </div>
+                <div class="slider">
+                   <div class="images">
+                       <img class="image-sld current" src="img/sld1.png" alt="sld1">
+                       <img class="image-sld" src="img/sld2.png" alt="sld2">
+                       <img class="image-sld" src="img/sld3.png" alt="sld3">
+                       <img class="image-sld" src="img/sld4.png" alt="sld4">
+                   </div>
+                   <div class="marks">
+                       <div value="0" class="mark-1 marked"></div>
+                       <div value="1" class="mark-2"></div>
+                       <div value="2" class="mark-3"></div>
+                       <div value="3" class="mark-4"></div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="our_services">
+        <div class="our_services-wrapper">
+            <div class="our_services_text" find="1">Наши услуги</div>
+            <div class="our_services_checkpoint">
+                <div class="checkpoint">
+                    <img class="checkpoint_icon" src="icons/engineer.svg" alt="checkpoint">
+                    <a class="link checkpoint_text" href="stopgap.html" find="1">Геодезические работы</a>
+                </div>
+                <div class="checkpoint">
+                    <img class="checkpoint_icon" src="icons/settings.svg" alt="checkpoint">
+                    <a class="link checkpoint_text" href="stopgap.html" find="1">Монтажные работы</a>
+                </div>
+                <div class="checkpoint chck-3">
+                    <img class="checkpoint_icon" src="icons/laptop-screen.svg" alt="checkpoint">
+                    <a class="link checkpoint_text" href="stopgap.html" find="1">Устройство инженерных сетей</a>
+                </div>
+                <div class="checkpoint">
+                    <img class="checkpoint_icon" src="icons/helmet.svg" alt="checkpoint">
+                    <a class="link checkpoint_text" href="stopgap.html" find="1">Подготовительные работы</a>
+                </div>
+                <div class="checkpoint">
+                    <img class="checkpoint_icon" src="icons/drill.svg" alt="checkpoint">
+                    <a class="link checkpoint_text" href="stopgap.html" find="1">Устройство кровли</a>
+                </div>
+                <div class="checkpoint chck-6">
+                    <img class="checkpoint_icon" src="icons/fountain.svg" alt="checkpoint">
+                    <a class="link checkpoint_text" href="stopgap.html" find="1">Благоустройство территории</a>
+                </div>
+            </div>
+            <a class="link our_serivces_more" href="stopgap.html">
+                <p style="padding-right: 5px;" find="1">Подробнее</p>
+                <img src="icons/arrow_long.svg" alt="arrow">
+            </a>
+        </div>
+    </div>
+    <div class="create_project">
+        <div class="create_project_text" find="1">Реализуем любой Ваш проект</div>
+        <div class="create_project_step">
+            <div class="step">
+                <div class="step_number step_number-one" find="1">01</div>
+                <div class="step_banner step_banner-one" find="1">Звонок</div>
+                <div class="step_text step_text_one" find="1">
+                    Перезвоним Вам в течение 10 минут для знакомства и обсуждения общих вопросов.
+                </div>
+            </div>
+            <div class="step">
+                <div class="step_number step_number-two" find="1">02</div>
+                <div class="step_banner step_banner-two" find="1">Встреча</div>
+                <div class="step_text step_text-two" find="1">
+                    Встретимся через пару дней в нашем офисе или на нейтральной территории, обсудим все детали.
+                </div>
+            </div>
+            <div class="step">
+                <div class="step_number step_number-three" find="1">03</div>
+                <div class="step_banner step_banner-three" find="1">Договор</div>
+                <div class="step_text step_text-three" find="1">
+                    Подготовка  всех документов, выделим время на их изучение, внесение поправок и подписание.
+                </div>
+            </div>
+            <div class="step">
+                <div class="step_number step_number-four" find="1">04</div>
+                <div class="step_banner step_banner-four" find="1">Проект</div>
+                <div class="step_text step_text-four" find="1">
+                    Составление ТЗ, эскизного проекта, утверждение конструктивных решений и дизайн-проекта.
+                </div>
+            </div>
+            <div class="step">
+                <div class="step_number step_number-five" find="1">05</div>
+                <div class="step_banner step_banner-five" find="1">Реализация</div>
+                <div class="step_text step_text-five" find="1">
+                    Работа наших специалистов под наблюдением инженеров и старших специалистов. Раз в неделю отчёт о проделанной работе.
+                </div>
+            </div>
+        </div>
+        <a class="create_project_link" href="#form">
+            <button class="btn create_project_button">
+                <p class="button_project-text" find="1">Заказать звонок</p>
+            </button>
+        </a>
+    </div>
+    <div class="projects">
+        <div class="projects_header">Наши проекты</div>
+        <div class="projects-grid">
+            <div class="projects-n projects-one">
+                <div class="projects-n-wrapper" dataId='0'>
+                    <p find="1">Строительство бизнес-центра, г. Брест</p>
+                    <a class="link link_projects_more" href="stopgap.html">
+                        <p find="1">Подробнее</p>
+                        <img src="icons/arrow_long.svg" alt="arrow">
+                    </a>
+                </div>
+            </div>
+            <div class="projects-n projects-two">
+                <div class="projects-n-wrapper" dataId='2'>
+                    <p find="1">Застройка нового микрорайона, г. Брест</p>
+                    <a class="link link_projects_more" href="stopgap.html">
+                        <p>Подробнее</p>
+                        <img src="icons/arrow_long.svg" alt="arrow">
+                    </a>
+                </div>
+            </div>
+            <div class="projects-n projects-three">
+                <div class="projects-n-wrapper" dataId='4'>
+                    <p find="1">Разработка проекта ЖК “АА”, г. Пинск</p>
+                    <a class="link link_projects_more" href="stopgap.html">
+                        <p find="1">Подробнее</p>
+                        <img src="icons/arrow_long.svg" alt="arrow">
+                    </a>
+                </div>
+            </div>
+            <div class="projects-n projects-four">
+                <div class="projects-n-wrapper" dataId='6'>
+                    <p find="1">Установка солнечных батарей, г. Лунинец</p>
+                    <a class="link link_projects_more" href="stopgap.html">
+                        <p find="1">Подробнее</p>
+                        <img src="icons/arrow_long.svg" alt="arrow">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="partners">
+        <div class="partners_header" find="1">Наши партнёры</div>
+        <div class="partners_logotips">
+            <img class="img_partners img_p-1" src="img/ceresit.svg" alt="ceresit">
+            <img class="img_partners img_p-2" src="img/bta.svg" alt="bta">
+            <img class="img_partners img_p-3" src="img/dulux.svg" alt="dulux">
+            <img class="img_partners img_p-4" src="img/caparoll.svg" alt="caparol">
+            <img class="img_partners img_p-5" src="img/bzhd.svg" alt="bzhd">
+        </div>
+    </div>
+    <div class="consult">
+        <form name="consult_forma" id="form" class="consult_forma">
+            <div class="consult_forma_header" find="1">Заполните форму для получения консультации</div>
+            <div class="consult_forma_callback" find="1">Наш специалист свяжется с Вами в течение 10 минут.</div>
+            <div class="consult_forma_label cfi-1" find="1">Имя</div>
+            <input 
+                id="form-name"
+                minlength="2"
+                maxlength="20"
+                name ="name"
+                class="consult_forma_input" 
+                type="text" 
+                placeholder="Введите Ваше имя"
+                required
+            >
+            <div class="consult_forma_label cfi-2" find="1">Номер телефона</div>
+            <input 
+                id="form-number"
+                minlength="9"
+                maxlength="15"
+                name ="number"
+                class="consult_forma_input" 
+                type="text" 
+                placeholder="+375(__)___ __ __"
+                required
+            >
+            <button 
+                type="submit" 
+                class="btn consult_forma_button">
+                    Отправить
+            </button>
+        </form>
+        <div id="success" class="consult_success">
+            <img id="success_close" class="sccess_close_icon" src="icons/close.svg" alt="close">
+            <div class="consult_success_thank">Спасибо!</div>
+            <img class="sccess_accept_icon" src="icons/accept.svg" alt="accept">
+            <div class="consult_success_text">
+                Ваша заявка отправлена.<br>
+                Ожидайте звонка в течение <br>
+                10 минут.
+            </div>
+            <div id="success_more" class="link consult_success_more">
+                <p>Отправить еще</p>
+                <img src="icons/arrow_white.svg" alt="arrow">
+            </div>
+        </div>
+    </div>
+    <div class="futter">
+        <div class="futter-wrapper">
+            <a class="link futter_header" href="#">ПинсксовхозСТРОЙ</a>
+            <div class="futter_menu">
+                <div class="futter_menu_element">
+                    <a href="stopgap.html" class="link menu_element_header">О нас</a>
+                </div>
+                <div class="futter_menu_element">
+                    <a href="stopgap.html" class="link menu_element_header">Услуги</a>
+                </div>
+                <div class="futter_menu_element">
+                    <a href="stopgap.html" class="link menu_element_header">Проекты</a>
+                </div>
+                <div class="futter_menu_element">
+                    <a href="stopgap.html" class="link menu_element_header">ПМК</a>
+                </div>
+                <div class="futter_menu_element">
+                    <a href="stopgap.html" class="link menu_element_header">Контакты</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/find.js"></script>
+    <script src="js/send.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
